@@ -1,5 +1,4 @@
 # TinDogs
-Pet adoption app that has a user interface similar to popular dating apps.
 
 Based on the popular dating Tinder, Tindogs is an app that connects adoption agencies and potential adopters. Adoption agencies and other organizations that house animals can create profiles for thier animals to be seen by others on the app. 
 
