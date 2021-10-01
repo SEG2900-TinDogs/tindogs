@@ -1,9 +1,11 @@
 # TinDogs
 
-Based on the popular dating Tinder, Tindogs is an app that connects adoption agencies and potential adopters. Adoption agencies and other organizations that house animals can create profiles for thier animals to be seen by others on the app. 
+*Based on the popular dating app Tinder, Tindogs is an app that connects adoption agencies and potential adopters.*
 
-Details like age, physcial description, and status of health are included in this profile so that adoptees may understand what the animal is like. People looking to adopt also create profiles so that they may choose the animals that they are interested in. 
+- Adoption agencies can create profiles for their animals, then post individual profiles for each animal in need of adoption. Details like age, physical description, and status of health is included in this profile so that adoptees can understand what the animal is like.
 
-Those in charge of the animals accounts may also choose people that they think would be good matches. Based on lifestyle, location, and other other details that these individuals deem important, animals and adopters may be matched together. Now, times can be organized for the two parties to meet and see if this can be a forever home.
+- The potential adopters can also create a profile where they specify their lifestyle, location and various other details. 
 
-In these times more than ever, people are feelong isolated and alone. Numerous studies have shown the benefits that having a pet or being around them can have on a person, like study dogs for students during exam time, and its important that animals in shelters take priority over those in pets shops or mills. With our app, Tindogs hopes to bring theses two principles together by making it easier for people and animals in need to connect.
+- The employees of a pet adoption center are responsible for matching pets with potential adopters. 
+
+> The Tindogs app not only makes pet adoption easy and effective, but it also strives to help with the current mental health crisis. Numerous studies have shown the benefits of having a pet around the house: pets love their owners with unconditional love (with the obvious exception of cats...) and this kind of devotion can have a lasting positive impact on their owners.
