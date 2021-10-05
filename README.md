@@ -13,3 +13,4 @@ Based on the popular dating app Tinder, Tindogs is an app that connects adoption
 Contributors:
 - Gabriel Braden (300154707)
 - Ghita Sebban (300237235)
+- Kendyl Snow (300240323)
