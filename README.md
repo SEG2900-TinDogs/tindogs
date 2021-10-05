@@ -14,3 +14,4 @@ Contributors:
 - Gabriel Braden (300154707)
 - Ghita Sebban (300237235)
 - Kendyl Snow (300240323)
+- Alae-Eddine Raftani (300238091)
