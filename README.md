@@ -14,3 +14,4 @@ Contributors:
 - Ghita Sebban (300237235)
 - Kendyl Snow (300240323)
 - Keith (300246636)
+- Alae-Eddine Raftani (300238091)
