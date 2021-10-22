@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: 400;
+}
+
+.nav {
+    width: 100%;
+    height: 65px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    color: #ED5555;
+    font-size: 24px;
+    position: relative;
+    top: 25%;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    position: relative;
+    top: 30%;
+    justify-content: space-around;
+    width: 45%;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.row1 {
+    display: flex;
+}
+
+.card1 {
+    width: 280px;
+    height: 400px;
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: 50px auto;
+}
+
+.name {
+    position: relative;
+    top: 0%;
+    font-size: 24px;
+    padding-left: 33%;
+}
+
+.role {
+    position: relative;
+    top: 0%;
+    font-size: 18px;
+    padding-left: 42%;
+}
+
+.meet {
+    position: relative;
+    width: 170px;
+    height: 39px;
+    background: #ED5555;
+    border-radius: 7px;
+    top: 3%;
+    left: 20%;
+    cursor: pointer;
+}
+
+.btn-text {
+    position: relative;
+    top: 20%;
+    left: 20%;
+    color: #fff;
+}
+
+.profile-pic {
+    width: 274px;
+    border-radius: 25px 25px 0 0;
+}
