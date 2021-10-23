@@ -1,38 +1,107 @@
 <!DOCTYPE html>
 <html>
     <head>
+    <meta name = "viewport" content = "width=device-width, inital-scale=1.0">
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+            color: black;
+            font-weight: 400;
+        }
+        .text {
+            font-size: 12px;
+            width: 75%;
+            height: 25%;
+            padding: 2%;
+        }
+        .title {
+            font-size: 18px;
+            text-align: left;
+            font-weight:700;
+        }
+        .button {
+            position: relative;
+            border-radius: 7px;
+            color: white;
+            background-color: #ed5555;
+            width: 169px;
+            height: 38px;
+            display: auto;
+            padding: 10 px;
+        }
+        .image {
+            padding-bottom:2%;
+            width: 600px;
+        }
+        .nav {
+            width: 100%;
+            height: 65px;
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+            display: flex;
+            justify-content: space-around;
+        }
+        .nav-links {
+            display: flex;
+            position: relative;
+            top: 30%;
+            justify-content: space-around;
+            width: 45%;
+        }
+        .logo {
+            color: #ED5555;
+            font-size: 24px;
+            position: relative;
+            top: 25%;
+            cursor: pointer;
+        }
+        li {
+            list-style: none;
+            cursor: pointer;
+        }
+
+    </style> 
         <title>Tindogs - About</title>
-     </head>
+    </head>
 
     <body>
-        <h1 style = "text-align:center;">What's Tindogs? From Nose to Tail: What you Need to Know</h1>
-       <p>
-        <img src= "images/shelter_cats.jpeg" alt= "Cats in a shelter" style="float:left;width:30%;height:30%;margin-right:25px;margin-left:25px">
-        <h3><strong>Why Tindogs Matters</strong></h3>
-        Every year, hundreds of animals are left in shelters across the country. Every year, people are in search of furry, feathered and scaled companions. Tindogs is an app that brings these two sides together, and helps to create longlasting connections.
-       </p> 
-       <p style = "text-align:center">
-       <button style = "background-color:#ed5555;text-align:center;color:white"><a href="mission_statement.html" target="_blank">READ OUR PHILOSOPHY</a></button>
-       </p>
-       <br>
-       <br> <!-- I know this is not very efficient, I'm working on it -->
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       
-       <p style = "margin-left:50px"> <!-- Need to make the text line up with the photo above -->
-       <img src="images/playing_dog.jpeg" alt = "Two kids playing with their dog" style="float:right;width:25%;height:25%;margin-right:25px;margin-left:25px">
-       <h3><strong>How Tindogs Works</strong></h3>
-       Members on both sides, the shelters and the adopters, make accounts for describing themselves (or thier animal). The potential adoptees can then go through a variety of different animals and "match" with the ones that they want to take home. Once a match is made, the two parties can then begin chatting! Tindogs makes animal adoption a walk in the park.
-       <!-- I would like to add a link to the features page in here -->
-       </p>
-       <p style = "text-align:center">
-       <button style = "background-color:#ed5555;text-align:center;color:white"><a href="tindogs/product-features-page-html/product-features.html" target="_blank">SEE OUR FEATURES</a></button>
-       </p>
+        <div class="nav"> <!--Nav bar info taken from Gabe's page-->
+            <h3 class="logo">tindogs</h3>
+            <ul class='nav-links'>
+                <li>Pricing</li>
+                <li>Features</li>
+                <li>Team</li>
+                <li>About</li>
+            </ul>
+        </div>
+        
+        <div>
+            <h1 style = "text-align:center;">What's Tindogs? From Nose to Tail: What you Need to Know</h1>
+            <div class = 'row'>
+                <img class = "image" src = "images/shelter_cats.jpeg" alt= "Cats in a shelter" style = "height:327px;padding-right:2%;padding-left:5%;float:left;top:10%">     
+                <div class = "text">
+                    <h3 class = "title">Why Tindogs Matters</h3>
+                    <p>Every year, hundreds of animals are left in shelters across the country. Every year, people are in search of furry, feathered, and scaled companions. Tindogs is an app that brings these two sides together, and helps to create longlasting connections.</p>
+                    <button class = "button"><a href = "mission_statement.html" target = "_blank" style = color:white;text-decoration:none>Read Our Philosophy</a></button>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <div>          
+            <img class = "image" src = "images/playing_dog.jpeg" alt = "Kids playing with thier dog" style = "height:350px;padding-right:5%;padding-left:2%;float:right;left:75%">
+            <div class = "text" style = "padding-left:5%"> 
+                <h3 class ='title'>How Tindogs Works</h3>
+                <p>Members on both sides, the shelters and the adopters, make accounts for describing themselves (or thier animal). The potential adoptees can then go through a variety of different animals and "match" with the ones that they want to take home. Once a match is made, the two parties can then begin chatting! Tindogs makes animal adoption a walk in the park.</p>
+                <button class = "button">See Features</button>
+            </div>
+        </div> 
     </body>
 </html>
