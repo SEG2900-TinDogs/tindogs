@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tindogs - Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+<section class="header">
+    <div class="nav" id="nav">
+        <h3 class="logo">tindogs</h3>
+        <ul class='nav-links'>
+            <li>Pricing</li>
+            <li>Features</li>
+            <li>Team</li>
+            <li>About</li>
+        </ul>
+    </div>
+</section>
+
+<section class="txt">
+    <div class="text-box" id="text-box">
+        <h1>Catch Phrase®</h1>
+        <p>Find your animal?</p>
+        <a href="" class="crt-btn">SIGN UP</a>
+    </div>
+</section>
+
+    
+<!-----scroll----->
+
+<section class="review">
+    <h1>Reviews</h1>
+    <div class="row">
+        <div class="reviews">
+            <img src="images/User1.jpg">
+            <div>
+                <p>"Very good app, i found my two dogs here and im very grateful."</p>
+                <h3>Somebody i know</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="reviews">
+            <img src="images/User2.jpg">
+            <div>
+                <p>Wow, this app changed my life forever. Defenitly give it a try!</p>
+                <h3>That guy</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+</section>
+
+<section class="part">
+    <h1>Partnered</h1>
+    <div class="row">
+        <div class="content">
+            <h3>Statistics</h3>
+            <p>Very very deep studies.</p>
+        </div>
+        <div class="content">
+            <h3>Partnered</h3>
+            <p>If there is a sponsor out ther hit us up.</p>
+        </div>
+        <div class="content">
+            <h3>Idk</h3>
+            <p>Well find something to write here.</p>
+        </div>
+    </div>
+</section>
+
+<section class="ctct">
+    <h1>DO YOU HAVE QUESTIONS?</h1>
+    <a href="" class="ctct-btn">CONTACT US</a>
+</section>
+
+<section class="footer">
+    <p>There really is something for everyone on Tindogs. So what are you waiting for?<br>Don't waste more time and find your new little friend.</p>
+    <h4>Socials</h4>
+    <div class="scl-icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <p>2021 SEG900,Tindogs Project.</p>
+    </div>
+</section>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<script>
+    $(window).scroll(function(){
+        $(".text-box").css("opacity", 1 - $(window).scrollTop() / 250);
+    });
+</script>
+
+</body>
+</html>
