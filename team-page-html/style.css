@@ -42,7 +42,7 @@ li {
 
 .card1 {
     width: 280px;
-    height: 400px;
+    height: 450px;
     background: #FFFFFF;
     border: 3px solid #000000;
     box-sizing: border-box;
@@ -51,17 +51,16 @@ li {
 }
 
 .name {
-    position: relative;
-    top: 0%;
     font-size: 24px;
-    padding-left: 33%;
+    display: flex;
+    justify-content: center;
 }
 
 .role {
-    position: relative;
-    top: 0%;
     font-size: 18px;
-    padding-left: 42%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
 }
 
 .meet {
@@ -70,7 +69,7 @@ li {
     height: 39px;
     background: #ED5555;
     border-radius: 7px;
-    top: 3%;
+    margin-top: 45px;
     left: 20%;
     cursor: pointer;
 }
