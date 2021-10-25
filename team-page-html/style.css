@@ -2,6 +2,8 @@
 
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 
     font-weight: 400;
@@ -75,10 +77,10 @@ li {
 }
 
 .btn-text {
-    position: relative;
-    top: 20%;
-    left: 20%;
+    display: flex;
+    justify-content: center;
     color: #fff;
+    padding-top: 7px;
 }
 
 .profile-pic {
