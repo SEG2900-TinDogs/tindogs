@@ -104,21 +104,21 @@ li {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
-/*---Partnered---*/
-.part{
+/*---More---*/
+.more{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 10px;
 }
-.part h1{
+.more h1{
     font-size: 36px;
     font-weight: 600;
 }
-.part h3{
+.more h3{
     color: #ed5555;
 }
-.part p{
+.more p{
     color: #777;
     font-size: 14px;
     font-weight: 300;
