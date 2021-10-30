@@ -1,93 +1,105 @@
 <!DOCTYPE html>
- <html>
-    <head>
-        <title>Product Features</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <style>
-            div {
-                font-family: Calibri;
-            }
-            div img {
-                width: 50px;
-                height: 50px;
-                text-align: right;
-            }
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tindogs - Features Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
 
-            div span{
-                align-items: center;
-                text-align: left;
-            }
+<section class="header">
+    <div class="nav" id="nav">
+        <h3 class="logo">tindogs</h3>
+        <ul class='nav-links'>
+            <li>Home</li>
+            <li>Pricing</li>
+            <li>Team</li>
+            <li>About</li>
+            <li><i class="fa fa-globe"></i> Eng</li>
+        </ul>
+    </div>
+</section>
 
-            .leftalign {
-                text-align: right;
-            }
+<section class="ttl">
+    <div class="ttl-box" id="ttl-box">
+        <h1>Product Features</h1>
+    </div>
+</section>
 
-            .center {
-                /* padding: 15px 0; */
-            }
-
-            .hcenter {
-                text-align: center;
-            }
-
-            .bkgred {
-                background-color: #ed5555 !important;
-            }
-
-            .title {
-                font-weight: bold;
-                border-top-left-radius: 25px;
-                border-top-right-radius: 25px;
-                font-size: 18px;
-                color: #ed5555;
-            }
-
-            .separator {
-                padding-top: 15px;
-            }
-
-            div>span+div {
-                width: 250px;
-                font-size: 12px;
-            }
-            .round-radius {
-                border-top-left-radius: 25px;
-                border-top-right-radius: 25px;           
-            }
-            .panel {
-                border-bottom-left-radius: 25px;
-                border-bottom-right-radius: 25px; 
-            }
-
-         </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="panel panel-default round-radius">
-                <div class="bkgred panel-heading hcenter round-radius"><span style="font-size: 20px; color: white"><strong>Product Features</strong></span></div>
-                <div class="panel-body">    
-                    <div class="row">
-                        <div class="col-md-1 leftalign"><img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" class="img-thumbnail" alt="Rating system"/></div>
-                        <div class="col-md-3 center"><span class="title">Rating system</span><div>Enter here to rate the system for valuable feedback</div></div>
-                        <div class="col-md-3 leftalign"><img src="https://cdn-icons-png.flaticon.com/512/1828/1828640.png" class="img-thumbnail" alt="Verification process"/></div>
-                        <div class="col-md-3 center"><span class="title">Verification process</span><div>Mainly for legal reasons </div></div>
-                        <div class="offset-md-2"></div>
-                    </div>
-                    
-                    <div class="row separator">
-                        <div class="col-md-1 leftalign"><img src="https://cdn-icons-png.flaticon.com/512/610/610333.png" class="img-thumbnail" alt="Win points"/></div>
-                        <div class="col-md-3 center"><span class="title">Win points</span><div>Accumulate points for taking properly taking care of your pet (shelter check every 6 months) , and use your  points  to get free food , or toys for the pet</div></div>
-                        <div class="col-md-3 leftalign"><img src="https://cdn-icons-png.flaticon.com/512/1041/1041916.png" class="img-thumbnail" alt="Chat"/></div>
-                        <div class="col-md-3 center"><span class="title">Chat with others</span><div>A chatting system so you can talk to each other about your pets</div></div>
-                        <div class="offset-md-2"></div>
-                    </div>
-                    <div class="row separator">
-                        <div class="col-md-1 leftalign"><img src="https://cdn-icons-png.flaticon.com/512/2693/2693507.png" class="img-thumbnail" alt="Events"/></div>
-                        <div class="col-md-3 center"><span class="title">Events</span><div>Special events and meetups for the pets and their owners</div></div>
-                        <div class="offset-md-8"></div>
-                    </div>
-                </div>
+<!-----main----->
+<section class="review">
+    <div class="row">
+        <div class="reviews">
+            <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png">
+            <div>
+                <h3>Rating System</h3>
+                <p>Enter here to rate the system for valuable feedback</p>
+            </div>
+        </div>
+        <div class="reviews">
+            <img src="https://cdn-icons-png.flaticon.com/512/1828/1828640.png">
+            <div>
+                <h3>Verification Process</h3>
+                <p>Mainly for legal reasons</p>
+            </div>
+        </div>
+</section>
+<section class="review">
+    <div class="row">
+        <div class="reviews">
+            <img src="https://cdn-icons-png.flaticon.com/512/610/610333.png">
+            <div>
+                <h3>Win Points</h3>
+                <p>Accumulate points for taking properly taking care of your pet (shelter check every 6 months) , and use your points to get free food , or toys for the pet</p>
+            </div>
+        </div>
+        <div class="reviews">
+            <img src="https://cdn-icons-png.flaticon.com/512/1041/1041916.png">
+            <div>
+                <h3>Chat with Others</h3>
+                <p>A chatting system so you can talk to each other about your pets</p>
+            </div>
+        </div>
+</section>
+<section class="review">
+    <div class="row">
+        <div class="row3">
+        <div class="reviews">
+            <img src="https://cdn-icons-png.flaticon.com/512/2693/2693507.png">
+            <div>
+                <h3>Events</h3>
+                <p>Special events and meetups for the pets and their owners</p>
+            </div>
         </div>
         </div>
-    </body>
+    </div>
+</section>
+
+<section class="footer">
+    <p>There really is something for everyone on Tindogs. So what are you waiting for?<br>Make an animal’s dreams come true with the one thing they’re missing... you!</p>
+    <h4>Socials</h4>
+    <div class="scl-icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <p>2021 SEG900,Tindogs Project.</p>
+    </div>
+</section>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<script>
+    $(window).scroll(function(){
+        $(".ttl-box").css("opacity", 1 - $(window).scrollTop() / 150);
+    });
+</script>
+
+       
+</body>
 </html>
