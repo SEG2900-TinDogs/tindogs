@@ -1,0 +1,115 @@
+
+   
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tindogs - Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+
+<section class="header">
+    <div class="nav" id="nav">
+        <h3 class="logo">tindogs</h3>
+        <ul class='nav-links'>
+            <li>Tarification</li>
+            <li>Fonctionalités</li>
+            <li>Equipe</li>
+            <li>A propos</li>
+            <li><i class="fa fa-globe"></i> Eng</li>
+        </ul>
+    </div>
+</section>
+
+<section class="txt">
+    <div class="text-box" id="text-box">
+        <h1>Meet your Match</h1>
+        <h3>®</h3>
+        <p>Trouvez un vous un nouvel ami !</p>
+        <a href="" class="crt-btn">SIGN UP</a>
+    </div>
+</section>
+
+    
+<!-----scroll----->
+
+<section class="more">
+    <h1>More Info</h1>
+    <div class="row">
+        <div class="content">
+            <h3>Adoptez un animal de compagnie</h3>
+            <p>En adoptant un animal au lieu de l'achter , non seulement sauvez vous la vie d'un petit animal abodondonné mais aussi celle de l 'animal que vous adoptez . Grâce à vous sa vie prendra une toute autre tournure ! </p>
+        </div>
+        <div class="content">
+            <h3> Bien-être de nos animaux </h3>
+            <p>Si un animal est en  situation de détresse à cause d'un acte de négligence ou de cruauté ,  Veuillez contacter le 911 , ou encore le  1-833-9ANIMAL<br>(1-833-926-4625).</p>
+        </div>
+        <div class="content">
+            <h3>Statistiques</h3>
+            <p>Chaque année, approximativement 4.1 millions d' animaux sont adoptés des nombreux abris . Cependant , il est estimé  que  plus d'un million d'animaux sont euthanaziés due au manque de demandes d'adoption.</p>
+        </div>
+    </div>
+</section>
+
+<section class="review">
+    <h1>Commentaires</h1>
+    <div class="row">
+        <div class="reviews">
+            <img src="images/User1.jpg">
+            <div>
+                <p>"Très bonne application ,j'ai trouvé mes deux petis bout de chou  ici , je ne pourrai jamais autant vous remercier ! ."</p>
+                <h3>Aurore Anselme</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="reviews">
+            <img src="images/User2.jpg">
+            <div>
+                <p>"Wow, Cette application à complètement changé ma vie.Je vous invite a l'essayer au plus vite ! "</p>
+                <h3>Emidio Petronilla</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+</section>
+
+<section class="ctct">
+    <h1> Avez vous des questions ?</h1>
+    <a href="" class="ctct-btn">CONTACT US</a>
+</section>
+
+<section class="footer">
+    <p> . Qu'attendez vous ?<br>Réalisez le rêve d'un animal en lui offrant tout ce qu'il n'a jamais eu ... VOUS!</p>
+    <h4>Social</h4>
+    <div class="scl-icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <p>2021 SEG900,Projet Tindogs.</p>
+    </div>
+</section>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<script>
+    $(window).scroll(function(){
+        $(".text-box").css("opacity", 1 - $(window).scrollTop() / 350);
+    });
+</script>
+
+</body>
+</html>
