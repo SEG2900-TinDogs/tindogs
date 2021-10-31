@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tindogs -Page de l'équipe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+
+<section class="header">
+    <div class="nav" id="nav">
+        <h3 class="logo">tindogs</h3>
+        <ul class='nav-links'>
+            <li>Acceuil</li>
+            <li>Tarifications</li>
+            <li>Fonctionnalités</li>
+            <li>À propos</li>
+            <li><i class="fa fa-globe"></i> Fr</li>
+        </ul>
+    </div>
+</section>
+
+<section class="ttl">
+    <div class="ttl-box" id="ttl-box">
+        <h1>Rencontrez notre équipe </h1>
+    </div>
+</section>
+
+<section class="rows">
+    <div class="row1">
+        <div class="card1">
+            <img class="profile-pic" src="images/lighthouse.png" />
+            <h3 class="name">Kendyl Snow</h3>
+            <h4 class="role">Conception frontale</h4>
+            <div class="meet"><p class="btn-text">Rencontrez Kendyl</p></div>
+        </div>
+        <div class="card1">
+            <img class="profile-pic" src="images/lighthouse.png" />
+            <h3 class="name">Gabriel Braden</h3>
+            <h4 class="role">Développeur Full Stack</h4>
+            <div class="meet"><p class="btn-text">Rencontrez Gabriel</p></div>
+        </div>
+    </div>
+    <div class="row1">
+        <div class="card1">
+            <img class="profile-pic" src="images/lighthouse.png" />
+            <h3 class="name">Alae Raftani</h3>
+            <h4 class="role">Designeur UX</h4>
+            <div class="meet"><p class="btn-text">Rencontrez Alae</p></div>
+        </div>
+        <div class="card1">
+            <img class="profile-pic" src="images/lighthouse.png" />
+            <h3 class="name">Ghita Sebban</h3>
+            <h4 class="role">Chef de  traduction </h4>
+            <div class="meet"><p class="btn-text">Rencontrez Ghita</p></div>
+        </div>
+    </div>
+    <div class="row1">
+        <div class="card1">
+            <img class="profile-pic" src="images/lighthouse.png" />
+            <h3 class="name">Keith Compere</h3>
+            <h4 class="role">Conception frontale</h4>
+            <div class="meet"><p class="btn-text">Rencontrez Keith</p></div>
+        </div>
+    </div>
+</section>
+
+<!-----footer----->
+<section class="footer">
+    <p>Il y'a TOUJOURS quelquechose pour vous sur Tindogs .Qu'attendez vous?<br>Réalisez le rêve de votre animal de compagnie en lui donant tout ce qu'il n'a jamais eu.. VOUS!</p>
+    <h4>Rêsaux sociaux</h4>
+    <div class="scl-icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <p>2021 SEG900,Projet Tindogs.</p>
+    </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<script>
+    $(window).scroll(function(){
+        $(".ttl-box").css("opacity", 1 - $(window).scrollTop() / 125);
+    });
+</script>
+
+</body>
+</html>
