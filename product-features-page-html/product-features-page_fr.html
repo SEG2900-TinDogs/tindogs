@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tindogs - Fonctionalités</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+
+<section class="header">
+    <div class="nav" id="nav">
+        <h3 class="logo">tindogs</h3>
+        <ul class='nav-links'>
+            <li>Acceuil</li>
+            <li>Tarification</li>
+            <li>Equipe</li>
+            <li>A propos </li>
+            <li><i class="fa fa-globe"></i> Eng</li>
+        </ul>
+    </div>
+</section>
+
+<section class="ttl">
+    <div class="ttl-box" id="ttl-box">
+        <h1>Product Features</h1>
+    </div>
+</section>
+
+<!-----main----->
+<section class="review">
+    <div class="row">
+        <div class="reviews">
+            <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png">
+            <div>
+                <h3>Système d'évaluation</h3>
+                <p>Partagez votre Feedback afin de nous aidez à Évoluer</p>
+            </div>
+        </div>
+        <div class="reviews">
+            <img src="https://cdn-icons-png.flaticon.com/512/1828/1828640.png">
+            <div>
+                <h3>Process de Vérification</h3>
+                <p>Pour des raisons légales</p>
+            </div>
+        </div>
+</section>
+<section class="review">
+    <div class="row">
+        <div class="reviews">
+            <img src="https://cdn-icons-png.flaticon.com/512/610/610333.png">
+            <div>
+                <h3> Gagnez des points ! </h3>
+                <p>Accumulez des points en  prennant soin de votre animal de compagnie (a defaut d'une viste mensuelle par les refuges d'animaux ) , vous pouvez utiliser ces points pour lui procurer de la nourriture , ou encore mieux , des jouets </p>
+            </div>
+        </div>
+        <div class="reviews">
+            <img src="https://cdn-icons-png.flaticon.com/512/1041/1041916.png">
+            <div>
+                <h3>Chattez avec les autres !</h3>
+                <p>Ceci est un syteme de chat qui vous permet d'echanger des conversations et a propos de l education et le bine etre de vos animaux de compagnie</p>
+            </div>
+        </div>
+</section>
+<section class="review">
+    <div class="row">
+        <div class="row3">
+        <div class="reviews">
+            <img src="https://cdn-icons-png.flaticon.com/512/2693/2693507.png">
+            <div>
+                <h3>Events</h3>
+                <p>Special events and meetups for the pets and their owners</p>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <p>There really is something for everyone on Tindogs. So what are you waiting for?<br>Make an animal’s dreams come true with the one thing they’re missing... you!</p>
+    <h4>Socials</h4>
+    <div class="scl-icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <p>2021 SEG900,Tindogs Project.</p>
+    </div>
+</section>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<script>
+    $(window).scroll(function(){
+        $(".ttl-box").css("opacity", 1 - $(window).scrollTop() / 150);
+    });
+</script>
+
+       
+</body>
+</html>
