@@ -1,30 +1,96 @@
-<html>
-    <body>
-        <h1>
-            Pricing:
-        </h1>
-        <p1>
-            30% of every purchase goes towards non profit organizations that help protect and keep our fellow creatures healthy.
-            <br>
-            For 5$ a month you get access to these options:
-        </p1>
-        <ol>
-            <li>Filter by animal </li>
-            <li>Filter between personal accounts or shelter profiles</li>
-        </ol>
-        <p2>
-            For 8$ a month you get:
-        </p2>
-        <ol>
-            <li>Filter by animal</li>
-            <li>Filter between personal accounts or shelter profiles</li>
-            <li>Makes your account stand out more compared to others(higher chance for account to be seen)</li>
-        </ol>
-        <p3>
-            etc etc
-            <br>
-            For shelter profiles please click here(I swear I'll add a link later) to receive special offers and discounts.
-        </p3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tindogs - Pricing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
 
-    </body>
+<section class="header">
+    <div class="nav" id="nav">
+        <h3 class="logo">tindogs</h3>
+        <ul class='nav-links'>
+            <li>Home</li>
+            <li>Features</li>
+            <li>Team</li>
+            <li>About</li>
+            <li><i class="fa fa-globe"></i> Eng</li>
+        </ul>
+    </div>
+</section>
+
+<section class="ttl">
+    <div class="ttl-box" id="ttl-box">
+        <h1>Pricings</h1>
+        <p>30% of every purchase goes towards non profit organizations that help protect and keep our fellow creatures healthy!</p>
+    </div>
+</section>
+
+<!-----main----->
+<section class="review">
+    <div class="row">
+        <div class="reviews">
+            <div>
+                <h3>Standard</h3>
+                <h1>3$/month</h1>
+                <p>&#9679; Filter by animal</p>
+                <p>&#9679; Filter between personal accounts or shelter profiles</p>
+                <p class="p1">&#9679; Makes your account stand out more compared to others(higher chance for account to be seen)</p>
+                <a href="" class="btn">Get Started</a>
+            </div>
+        </div>
+        <div class="reviews2">
+            <div>
+                <h3>Premium</h3>
+                <h1>8$/month</h1>
+                <p>&#9679; Filter by animal</p>
+                <p>&#9679; Filter between personal accounts or shelter profiles</p>
+                <p>&#9679; Makes your account stand out more compared to others(higher chance for account to be seen)</p>
+                <a href="" class="btn2">Get Started</a>
+            </div>
+        </div>
+</section>
+
+<section class="txt1">
+    <div class="text-box1">
+        <div class="filter1">
+            <img src="images/dogeye.png">
+        </div>
+        <div class="layer">
+            <h1>Shelter Profiles</h1>
+            <h3>Click the link bellow to see the profiles available and receive special offers and discounts</h3>
+            <button href="" class="btn-1">Profiles</button>
+        </div>
+    </div>
+</section>
+
+
+<section class="footer">
+    <p>There really is something for everyone on Tindogs. So what are you waiting for?<br>Make an animal’s dreams come true with the one thing they’re missing... you!</p>
+    <h4>Socials</h4>
+    <div class="scl-icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <p>2021 SEG900,Tindogs Project.</p>
+    </div>
+</section>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<script>
+    $(window).scroll(function(){
+        $(".ttl-box").css("opacity", 1 - $(window).scrollTop() / 150);
+    });
+</script>
+
+       
+</body>
 </html>
