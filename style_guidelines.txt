@@ -1,45 +1,35 @@
-All mockups available here: https://github.com/SEG2900-TinDogs/tindogs/tree/html-sketches
+TinDogs Style Guide
 
 
-Theme Color:
-#ed5555
-#fff
-#000
+* Every page can be viewed on the “html sketches” branch of the TinDogs GitHub repo: https://github.com/SEG2900-TinDogs/tindogs/tree/html-sketches
 
 
-Buttons
-* White text on the ed5555 background
-* Rounded edges
-   * Buttons have 10px corner radius
-   * Hovering over stays the same color 
-* Normal title convention (i.e. Sign Up would be written on the button instead of SIGN UP or sign up)
+* The standard CSS file that all the HTML pages inherit from can be found here: https://github.com/SEG2900-TinDogs/tindogs/blob/html-sketches/home-page-html/style.css 
 
 
-Animal pictures used: 
-*feel free to add in the name of the animal if it’s not already there
+* The theme colors of the website are the following hex codes: white (#fff), black (#000) and light red (#ed5555). 
 
 
-Dog = 2
-Hedgehog = 1
-Ferret = 1
-Cat = 2
-etc
+* All buttons must conform to the following guidelines:
+   * White text on the ed5555 background
+   * Rounded edges
+      * Buttons have 10px corner radius
 
 
+* Normal title convention 
+   * (i.e. Sign Up would be written on the button instead of SIGN UP or sign up)
 
 
-Websites to use as design reference:
-https://bumble.com
-https://tinder.com/
+* Font: Poppins
+   * Header Text size = 18px
+   * Body Text size = 12px
 
 
+* Cards
+   * Cards have a 25px corner radius
+   * 3px border
 
 
-Font: Poppins
-* Header Text size = 18
-* Body Text size = 12
-
-
-Cards
-* Cards have a 25px corner radius’
-* 3px border (may not gel with homepage)
+* Websites to use as design reference:
+   * https://bumble.com
+   * https://tinder.com/
