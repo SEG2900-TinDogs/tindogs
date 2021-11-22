@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tindogs - Team Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+
+<section class="header">
+    <div class="nav" id="nav">
+        <h3 class="logo"><a style="color: #ed5555;" href="../home-page-html/Home-page.html">tindogs</a></h3>
+        <ul class='nav-links'>
+            <li><a href="../home-page-html/Home-page.html">Home</a></li>
+            <li><a href="../pricing-page-html/Pricing.html">Pricing</a></li>
+            <li><a href="../product-features-page-html/product-features.html">Features</a></li>
+            <li><a href="../about-page-html/about.html">About</a></li>
+            <li><i class="fa fa-globe"></i><a href="team-page_fr.html" style="text-decoration: none;"> Eng</a></li>
+        </ul>
+    </div>
+</section>
+
+<section class="ttl">
+    <div class="ttl-box" id="ttl-box">
+        <h1>Meet our Team</h1>
+    </div>
+</section>
+
+<section class="rows">
+    <div class="row1">
+        <div class="card1">
+            <img class="profile-pic" src="images/kendyl.jpg" />
+            <h3 class="name">Kendyl Snow</h3>
+            <h4 class="role">Front End Designer</h4>
+            <a target="_blank" href="https://www.linkedin.com/in/kendyl-snow-026396223/"><div class="meet"><p class="btn-text">Meet Kendyl</p></div></a>
+        </div>
+        <div class="card1">
+            <img class="profile-pic" src="images/gabe.jpg" />
+            <h3 class="name">Gabriel Braden</h3>
+            <h4 class="role">Full Stack Developer</h4>
+            <a target="_blank" href="https://www.linkedin.com/in/gabe-braden-884227199/"><div class="meet"><p class="btn-text">Meet Gabriel</p></div>
+        </div>
+	<div class="card1">
+            <img class="profile-pic" src="images/alae.jpg" />
+            <h3 class="name">Alae Raftani</h3>
+            <h4 class="role">UX Designer</h4>
+            <a target="_blank" href="https://www.linkedin.com/in/alae-eddine-raftani-543ba5224/"><div class="meet"><p class="btn-text">Meet Alae</p></div></a>
+        </div>
+    </div>
+    <div class="row1">
+       <div class="card1">
+            <img class="profile-pic" src="images/ghita.jpg" />
+            <h3 class="name">Ghita Sebban</h3>
+            <h4 class="role">Head of Translation</h4>
+            <a target="_blank" href="https://www.linkedin.com/in/ghita-sebban-398846222/"><div class="meet"><p class="btn-text">Meet Ghita</p></div>
+        </div>
+        <div class="card1">
+            <img class="profile-pic" src="images/keith.jpg" />
+            <h3 class="name">Keith Compere</h3>
+            <h4 class="role">Front End Designer</h4>
+            <a target="_blank" href="https://www.linkedin.com/in/keith-compere-5a3435221/"><div class="meet"><p class="btn-text">Meet Keith</p></div>
+        </div>
+    </div>
+</section>
+
+<!-----footer----->
+<section class="footer">
+    <p>There really is something for everyone on Tindogs. So what are you waiting for?<br>Make an animal’s dreams come true with the one thing they’re missing... you!</p>
+    <h4>Socials</h4>
+    <div class="scl-icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <p>2021 SEG900,Tindogs Project.</p>
+    </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<script>
+    $(window).scroll(function(){
+        $(".ttl-box").css("opacity", 1 - $(window).scrollTop() / 125);
+    });
+</script>
+
+</body>
+</html>

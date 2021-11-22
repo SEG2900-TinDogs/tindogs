@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "viewport" content = "width=device-width, inital-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="scripts.js"></script>
+    <title>Tindogs - A propos</title>
+</head>
+
+<body>
+<!-----nav----->
+<section class="header">
+    <div class="nav" id="nav">
+        <h3 class="logo"><a style="color: #ed5555;" href="../home-page-html/home-page_fr.html">tindogs</a></h3>
+        <ul class='nav-links'>
+            <li><a href="../home-page-html/home-page_fr.html">Accueil</a></li>
+            <li><a href="../pricing-page-html/Pricing_fr.html">Tarification</a></li>
+            <li><a href="../product-features-page-html/product-features-page_fr.html">Fonctionnalités</a></li>
+            <li><a href="../team-page-html/team-page_fr.html">Equipe</a></li>
+            <li><i class="fa fa-globe"></i><a href="about.html" style="text-decoration: none;"> Fr</a></li>
+        </ul>
+    </div>
+</section>
+
+<!-----text----->
+<section class="ttl">
+    <div class="ttl-box" id="ttl-box">
+        <h1>Qu'est ce que Tindogs ?</h1>
+        <p>De A à Z: Ce que vous avez besoin de savoir</p>
+    </div>
+</section>
+
+<section class="txt1">
+    <div class="text-box1">
+        <div class="filter1">
+            <img src="images/saddog.png">
+        </div>
+        <div class="layer">
+            <h1>Pourquoi Tindogs est important ?</h1>
+            <h3>Chaque annnée, des centaines d'animaux sont abandonnés dans des refuges à travers le pays.<br>plusieurs personnes  cherchent réconfort et compagnie auprés de ces animaux. Tindogs est une application qui crée la relation entre les deux, et contribue à créer des relations durables.</h3>
+            <button class = "btn" onclick = "textChange()"><a href = "mission_statement_fr.html" target = "_blank" style = color:white;text-decoration:none>Notre mission</a></button>
+        </div>
+    </div>
+</section>
+
+<section class="txt1">
+    <div class="text-box1">
+        <div class="filter2">
+            <img src="images/playing_dog.png">
+        </div>
+        <div class="layer">
+            <h1>Comment marche Tindogs</h1>
+            <h3>Des membres des deux parties, annonceurs et adopteurs, créent des comptes pour se présenter (ou leur animal). Les adopteurs potentiels effectuent leur recherche et trouvent les animaux de compagnie qu'ils veulent adopter. Une fois la correspondance trouvée, les deux partis peuvent commencer à chatter! Tindogs rend l'adoption d'animaux comme une promenade dans un parc.</h3>
+            <button class="btn" onclick = "textChange()"><a href="../product-features-page-html/product-features-page_fr.html" target = "_blank" style = color:white;text-decoration:none>Voir les fonctionnalités</a></button>
+        </div>
+    </div>
+</section>
+
+<!-----footer----->
+<section class="footer">
+    <p>Il y a vraiment quelque chose pour chacun dans Tindogs. Alors qu'est ce que vous attendez ?<br>Réalisez le rêve d'un animal avec la seule chose qui leur manque ... vous!</p>
+    <h4>Réseaux sociaux</h4>
+    <div class="scl-icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <p>2021 SEG900,Tindogs Project.</p>
+    </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<script>
+    $(window).scroll(function(){
+        $(".ttl-box").css("opacity", 1 - $(window).scrollTop() / 125);
+    });
+</script>
+
+
+</body>
+</html>

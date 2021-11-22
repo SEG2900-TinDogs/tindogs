@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "viewport" content = "width=device-width, inital-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="scripts.js"></script>
+    <title>Tindogs - Notre mission</title>
+</head>
+
+<body>
+<!-----nav----->
+<section class="header">
+    <div class="nav" id="nav">
+        <h3 class="logo">tindogs</h3>
+        <ul class='nav-links'>
+            <li>Accueil</li>
+            <li>Tarification</li>
+            <li>Fonctionnalités</li>
+            <li>Equipe</li>
+            <li><i class="fa fa-globe"></i> <a href="mission_statement.html" style="text-decoration: none;"> Fr</a></li>
+        </ul>
+    </div>
+</section>
+
+<!-----text----->
+<section class="ttl">
+    <div class="ttl-box" id="ttl-box">
+        <h1>La lettre de Tindogs</h1>
+    </div>
+</section>
+
+<section class="txt3">
+    <div class="text-box3">
+        <div class="filter3">
+            <img src = "images/dog-cat.png">
+        </div>
+        <div class = "layer2">
+                <h3> Quand Tindogs a été créée, elle est née de l'idée qu'aucun animal ou humain ne devrait se retrouver seul. En 2020, la pandémie du coronavirus a frappé et l'auto-isolation a pris le dessus à la fois sur notre santé mentale et physique. Malgré le fait que les restrictions se soient allégées pour certains, le retour à la normale dans nos vies n'y est pas encore et il y a encore une distance qui nous sépare (la distanciation sociale). En même temps, la demande pour l'adoption d'animaux a atteint des records et plusieurs animaux ont pu trouver des maisons. Au moment où la demande reste élevée, nous avons une nouvelle crise sur les bras; tous les animaux ne sont pas encore adoptés. Les demandeurs restent sur des listes d'attente et les animaux restent dans les refuges, nous ramenant ainsi à notre question principale: Comment peut on trouver des maisons pour les animaux, et rendre les humains heureux ? Et si nous pouvions créer ces connexions à distance?</h3>
+                <br> 
+                <h3> En sigant des accords avec plusieurs abris à travers le pays, Tindogs rend facile le process pour connecter, choisir, et adopter un nouvel ami dans la famille. Dites Adieu aux durées d'attente, et dites bonjour à un processus d'adoption rapide, accessible et facile</p>
+                <br>
+                <h3> Quand vous choisissez un animal que vous souhaitez adopter, les abris pour animaux peuvent voir votre profil et s'assurer que vous êtes le bonne personne. Malgré le fait que ça peut sonner fastidieux, cela aide à s'assurer que votre éternel ami sera avec vous pour toujours, et que vous n'allez pas avoir de mauvaises surprises une fois vous les amenez chez vous. Une fois vous tombez amoureux de l'animal de votre choix, c'est seulement quelques conversations et un peu de cash, et vous pouvez ensuite les emmener chez vous.</h3>
+                <br>
+                <h3> Simplement être en présence d'animaux a été prouvé avoir des effets positifs sur la santé mentale et le bien être général. Pourquoi pensez vous que les universités et d'autres institutions académiques ramènent elles des chiens lors de la pêriode des examens? Alors que ces petits étudiants poilus ne préparent aucun diplôme, ils aident les élèves à se sentir relaxés quand règne le stress dans l'atmosphère. Nous espérons reproduire cet effet en rendant l'adoption d'animaux plus accessible à ceux qui pourraient ne pas être capables d'aller visiter en personne un abri d'animaux et leur donner les mêmes opportunités que tous les autres. Tindogs veux aider chacun de vous; ceux qui marchent sur deux pieds, ou sur quatre.</h3>
+                <br>
+                <h1>De la part de l'équipe Tindogs</h1>
+                <a href="../team-page-html/team-page_fr.html" class="btn2">Rencontrez notre équipe</a>
+        </div>
+    </div>
+</section>
+
+<!-----footer----->
+<section class="footer">
+    <p>Il y a vraiment quelque chose pour chacun dans Tindogs. Alors qu'est ce que vous attendez ?<br>Réalisez le rêve d'un animal avec la seule chose qui leur manque ... vous!</p>
+    <h4>Réseaux sociaux</h4>
+    <div class="scl-icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <p>2021 SEG900,Tindogs Project.</p>
+    </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<script>
+    $(window).scroll(function(){
+        $(".ttl-box").css("opacity", 1 - $(window).scrollTop() / 100);
+        $(".text-box3 img").css("opacity", 1 - $(window).scrollTop() / 550);
+    });
+</script>
+
+    
+</body>
+</html>

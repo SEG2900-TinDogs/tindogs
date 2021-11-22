@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tindogs - Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+
+<section class="header">
+    <div class="nav" id="nav">
+        <h3 class="logo"><a style="color: #ed5555;" href="../home-page-html/home-page_fr.html">tindogs</a></h3>
+        <ul class='nav-links'>
+            <li><a href="../pricing-page-html/pricing-page_fr.html">Tarification</a></li>
+            <li><a href="../product-features-page-html/product-features-page_fr.html">Fonctionnalités</a></li>
+            <li><a href="../team-page-html/team-page_fr.html">Equipe</a></li>
+            <li><a href="../about-page-html/about-page_fr.html">A propos</a></li>
+            <li><i class="fa fa-globe"></i><a href="Home-page.html" style="text-decoration: none;"> Fr</a></li>
+        </ul>
+    </div>
+</section>
+
+<section class="txt">
+    <div class="text-box" id="text-box">
+        <h1>Rencontrez votre âme soeur</h1>
+        <h3>®</h3>
+        <p>Trouvez un nouvel ami!</p>
+        <a href="" class="crt-btn">ENREGISTREZ VOUS</a>
+    </div>
+</section>
+
+    
+<!-----scroll----->
+
+<section class="more">
+    <h1>Plus d'informations</h1>
+    <div class="row">
+        <div class="content">
+            <h3>Adoptez un nouvel animal de compagnie</h3>
+            <p>En adoptant au lieu d'acheter un animal, vous sauverez deux vies-l'animal que vous adoptez et un animal sans abri qui peut être sauvé grâce à l'espace que vous fournissez.</p>
+        </div>
+        <div class="content">
+            <h3>Bien-être des animaux</h3>
+            <p>Si la vie d'un animal est en détresse, à cause de la cruauté et la négligence, prière de contacter la police au 911. Pour dénoncer la cruauté ou la négligence envers les animaux, merci d'appeler le 1-833-9ANIMAL<br>(1-833-926-4625).</p>
+        </div>
+        <div class="content">
+            <h3>Statistiques</h3>
+            <p>Chaque année, approximativement 4.1 million animaux sont adoptés. En revanche, il est estimé que  plus d'un million de chats et chiens adoptés sont euthanasiées à cause du manque de maisons d'accueil convenables.</p>
+        </div>
+    </div>
+</section>
+
+<section class="review">
+    <h1>Reviews</h1>
+    <div class="row">
+        <div class="reviews">
+            <img src="images/User1.jpg">
+            <div>
+                <p>"Application très intéressante, j'ai trouvé mes deux chiens ici et je vous en suis reconnaissant."</p>
+                <h3>Aurore Anselme</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="reviews">
+            <img src="images/User2.jpg">
+            <div>
+                <p>"Wow, cette application a changé ma vie pour toujours. Manifestement je vous recommande de l'essayer!"</p>
+                <h3>Emidio Petronilla</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+</section>
+
+<section class="ctct">
+    <h1>AVEZ VOUS DES QUESTIONS ?</h1>
+    <a href="" class="ctct-btn">CONTACTEZ NOUS</a>
+</section>
+
+<section class="footer">
+    <p>Il y a vraiment quelque chose pour chacun dans Tindogs. Alors qu'est ce que vous attendez ?<br>Réalisez le rêve d'un animal avec la seule chose qui leur manque ... vous!</p>
+    <h4>Réseaux sociaux</h4>
+    <div class="scl-icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <p>2021 SEG900,Tindogs Project.</p>
+    </div>
+</section>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<script>
+    $(window).scroll(function(){
+        $(".text-box").css("opacity", 1 - $(window).scrollTop() / 350);
+    });
+</script>
+
+</body>
+</html>

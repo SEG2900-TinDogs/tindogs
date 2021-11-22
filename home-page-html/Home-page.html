@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tindogs - Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+
+<section class="header">
+    <div class="nav" id="nav">
+        <h3 class="logo"><a style="color: #ed5555;" href="../home-page-html/Home-page.html">tindogs</a></h3>
+        <ul class='nav-links'>
+            <li><a href="../pricing-page-html/Pricing.html">Pricing</a></li>
+            <li><a href="../product-features-page-html/product-features.html">Features</a></li>
+            <li><a href="../team-page-html/team-page.html">Team</a></li>
+            <li><a href="../about-page-html/about.html">About</a></li>
+            <li><i class="fa fa-globe"></i><a href="home-page_fr.html" style="text-decoration: none;"> Eng</a></li>
+        </ul>
+    </div>
+</section>
+
+<section class="txt">
+    <div class="text-box" id="text-box">
+        <h1>Meet your Match</h1>
+        <h3>®</h3>
+        <p>Find a new friend!</p>
+        <a href="" class="crt-btn">SIGN UP</a>
+    </div>
+</section>
+
+    
+<!-----scroll----->
+
+<section class="more">
+    <h1>More Info</h1>
+    <div class="row">
+        <div class="content">
+            <h3>Adopt a Pet</h3>
+            <p>By adopting instead of buying an animal, you will save two lives-the pet you adopt and a homeless animal that can be rescued because of space you make available.</p>
+        </div>
+        <div class="content">
+            <h3>Animal Welfare</h3>
+            <p>If an animal’s life is in immediate distress as a result of cruelty or neglect, please contact the police at 911. To report animal cruelty or neglect, please please call 1-833-9ANIMAL<br>(1-833-926-4625).</p>
+        </div>
+        <div class="content">
+            <h3>Statistics</h3>
+            <p>Each year, approximately 4.1 million shelter animals are adopted. However, it's estimated that more than 1 million adoptable dogs and cats are euthanized due to a lack of welcoming homes.</p>
+        </div>
+    </div>
+</section>
+
+<section class="review">
+    <h1>Reviews</h1>
+    <div class="row">
+        <div class="reviews">
+            <img src="images/User1.jpg">
+            <div>
+                <p>"Very good app, i found my two dogs here and im very grateful."</p>
+                <h3>Aurore Anselme</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="reviews">
+            <img src="images/User2.jpg">
+            <div>
+                <p>"Wow, this app changed my life forever. Defenitly give it a try!"</p>
+                <h3>Emidio Petronilla</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+</section>
+
+<section class="ctct">
+    <h1>DO YOU HAVE QUESTIONS?</h1>
+    <a href="" class="ctct-btn">CONTACT US</a>
+</section>
+
+<section class="footer">
+    <p>There really is something for everyone on Tindogs. So what are you waiting for?<br>Make an animal’s dreams come true with the one thing they’re missing... you!</p>
+    <h4>Socials</h4>
+    <div class="scl-icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <p>2021 SEG900,Tindogs Project.</p>
+    </div>
+</section>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<script>
+    $(window).scroll(function(){
+        $(".text-box").css("opacity", 1 - $(window).scrollTop() / 350);
+    });
+</script>
+
+</body>
+</html>
